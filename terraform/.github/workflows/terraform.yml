@@ -2,8 +2,9 @@ name: "vprofile IAAC"
 on:
   push:
     branches:
-      - main
-      - stage
+      - '**'
+    #  - main
+    #  - stage
     paths:
       - terraform/**
 
